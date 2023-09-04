@@ -19,9 +19,9 @@ const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: '汤思雨',
+      name: '汤思雨','自己',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'oDRxy6X1AAz6p2R34FEfWIiXB47U',
+      id: 'oDRxy6X1AAz6p2R34FEfWIiXB47U','oDRxy6RQ_KsE1pppOcr-9mxD2_M0',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'zEz8HpeN9c8pviNdI9lo6fHHYknWupB4vzOmM_5HJgU',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
