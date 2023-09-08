@@ -23,7 +23,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oDRxy6VHe82z6PlDn-JCwBXRq76Q',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'ZNqWcFq8brBFpK9FyUZmWOsNkeVzJl4ej_6vZ9mG7vs',
+      useTemplateId: 'HnihcFIiWS0ey2twgxwTtV7JJGMv3r1vyw5m7uRdt4c',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '12-27',
       festivals: [
@@ -81,12 +81,14 @@ const USER_CONFIG = {
     },
 
      {
+        PROVINCE: '广东',
+        CITY: '广州',
       // 想要发送的人的名字
       name: '糖糖',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oDRxy6X1AAz6p2R34FEfWIiXB47U',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '	ZNqWcFq8brBFpK9FyUZmWOsNkeVzJl4ej_6vZ9mG7vs',
+      useTemplateId: 'HnihcFIiWS0ey2twgxwTtV7JJGMv3r1vyw5m7uRdt4c',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '06-15',
       festivals: [
