@@ -16,9 +16,7 @@ const USER_CONFIG = {
   PROVINCE: '广东',
   CITY: '韶关',
 
-  USERS: 
-
-      [
+  USERS: [
     {
       // 想要发送的人的名字
       name: '小号',
@@ -27,7 +25,7 @@ const USER_CONFIG = {
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'zEz8HpeN9c8pviNdI9lo6fHHYknWupB4vzOmM_5HJgU',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '07-30',
+      horoscopeDate: '12-27',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
@@ -40,7 +38,15 @@ const USER_CONFIG = {
         {
           type: '节日', name: '相识纪念日', year: '2020', date: '09-03',
         },
-
+      ],
+      // 我们在一起已经有xxxx天了的配置
+      customizedDateList: [
+        // 在一起的日子
+        { keyword: 'love_day', date: '2022-09-08' },
+        // 结婚纪念日
+        { keyword: 'marry_day', date: '2022-09-09' },
+      ],
+    },
   ],
 
 
@@ -49,7 +55,7 @@ const USER_CONFIG = {
 
   CALLBACK_USERS: [
     {
-      name: '小号',
+      name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oDRxy6RQ_KsE1pppOcr-9mxD2_M0',
     }
